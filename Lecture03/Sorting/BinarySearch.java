@@ -25,13 +25,14 @@ public class BinarySearch {
             }
             return false;
         }
+        return false;
     }
 
     public static void main(String[] args) {
         int[] arr = { 2, 3, 1, 6, 8, 4, 5, 9, 7 };
         Arrays.sort(arr);
         display(arr);
-        System.out.println(bsearch(arr, 8));
+        System.out.println(bSearch(arr, 8));
     }
 
 }

@@ -20,7 +20,7 @@ public class UpperBond {
     }
 
     public static void main(String[] args) {
-        int[] arr = { 1, 1, 2, 2, 2, 2, 3, 3, 3, 4, 4, 4, 6, 8, 9 };
+        int[] arr = { 1, 1, 2, 2, 2, 2, 3, 3, 3, 3, 3, 4, 4, 4, 6, 8, 9 };
         System.out.println(upperBound(arr, 3));
     }
 }

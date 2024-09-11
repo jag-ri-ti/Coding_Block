@@ -14,7 +14,7 @@ public class SwapElement {
 
     public static void main(String[] args) {
         int[] num = { 8, 1, 2, 3, 4, 5 };
-        swap(num);
+        System.out.println(num);
     }
 
 }
