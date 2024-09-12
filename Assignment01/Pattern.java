@@ -179,7 +179,24 @@ public class Pattern {
                 break;
 
             case 13:
+                for (int i = 0; i < n; i++) {
+                    for (int j = 0; j <= i; j++) {
+                        System.out.print("* ");
 
+                    }
+                    System.out.println(" ");
+                }
+                for (int i = n; i >= 0; i--) {
+                    for (int j = 0; j <= i; j++) {
+                        System.out.print("* ");
+
+                    }
+                    System.out.println(" ");
+                }
+                break;
+
+            case 14: {
+            }
             default:
                 System.out.println("I DON'T KNOW!!");
         }
