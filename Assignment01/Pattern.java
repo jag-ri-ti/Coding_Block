@@ -196,7 +196,54 @@ public class Pattern {
                 break;
 
             case 14: {
+                for (int i = 1; i <= n; i++) {
+                    for (int k = 1; k <= n - i; k++) {
+                        System.out.print(" ");
+                    }
+                    for (int j = 1; j <= n; j++) {
+                        System.out.print("*" + " ");
+                    }
+                    System.out.println();
+                }
+                for (int i = n; i >= 1; i--) {
+                    for (int k = 1; k <= n - i; k++) {
+                        System.out.print(" ");
+                    }
+                    for (int j = 1; j <= n; j++) {
+                        System.out.print("*" + " ");
+                    }
+                    System.out.println();
+                }
             }
+                break;
+
+            case 15:
+                for (int i = 1; i <= n; i++) {
+                    for (int k = 1; k <= n - i; k++) {
+                        System.out.print(" ");
+                    }
+                    for (int j = 1; j <= i; j++) {
+                        System.out.print(i + " ");
+                    }
+                    System.out.println();
+                }
+                break;
+
+            case 16:
+                for (int i = 0; i <= n; i++) {
+                    for (int k = 0; k <= n - i; k++) {
+                        System.out.print(" ");
+                    }
+                    //1th half
+                    for(int j=i;j>=1;j--){
+                        System.out.print(j);
+                    }
+                    //Second part
+                    for(int j=2;j<=i;j++)
+
+                }
+                break;
+
             default:
                 System.out.println("I DON'T KNOW!!");
         }
