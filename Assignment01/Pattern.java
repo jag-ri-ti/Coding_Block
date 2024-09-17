@@ -234,15 +234,25 @@ public class Pattern {
                     for (int k = 0; k <= n - i; k++) {
                         System.out.print(" ");
                     }
-                    //1th half
-                    for(int j=i;j>=1;j--){
+                    // 1th half
+                    for (int j = i; j >= 1; j--) {
                         System.out.print(j);
                     }
-                    //Second part
-                    for(int j=2;j<=i;j++)
+                    // Second part
+                    for (int j = 2; j <= i; j++) {
+                        System.out.print(j);
+                    }
+                    System.out.println();
 
                 }
                 break;
+
+            case 17:
+                for (int i = 0; i <= n; i++) {
+                    for (int k = 0; k < n - i; k++) {
+                    }
+
+                }
 
             default:
                 System.out.println("I DON'T KNOW!!");
