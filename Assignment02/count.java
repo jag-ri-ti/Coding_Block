@@ -18,6 +18,7 @@ public class count {
             }
         }
         System.out.println(count);
+        obj.close();
     }
 
 }

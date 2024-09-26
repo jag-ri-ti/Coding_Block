@@ -14,9 +14,9 @@ public class Armstrong {
 
         // Calculate the sum of each digit raised to the power of the number of digits
         while (num > 0) {
-            int digit = num % 10;
+            int digit = num % 10;// selects the last digit
             sum += Math.pow(digit, numDigits);
-            num /= 10;
+            num /= 10;// remove last digit
         }
 
         // If the sum equals the original number, it's an Armstrong number
