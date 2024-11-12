@@ -105,7 +105,7 @@ public class LinkedList {
         else if (k == size - 1)
             return removeLast();
         else{
-            Node k
+            Node 
         } 
             
     }
